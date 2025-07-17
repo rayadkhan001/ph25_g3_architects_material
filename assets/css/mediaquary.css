@@ -37,7 +37,7 @@
         flex-direction: column;
     }
     .our_features {
-        margin-left: 50px auto;
+        margin: 50px auto;
     }
     .sponsor_companies, .facts_container{
         grid-template-columns: repeat(2, 1fr);
