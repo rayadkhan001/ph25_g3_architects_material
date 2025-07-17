@@ -52,6 +52,9 @@ main > section{
     margin: 0 auto;
     text-align: center;
 }
+.mb_36 {
+    margin-bottom: 36px;
+}
 /********************************** HEADER & NAVBAR STYLES **********************************/
 .navbar{
     justify-content: space-between;
@@ -117,12 +120,51 @@ main > section{
 #quick_list {
     font-weight: 500;
 }
+/* FEATURE SECTION RELATED STYLES */
+.feature{
+    gap: 140px;
+}
+#feature_section_title{
+    margin-top: 0;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature_card_container{
+    padding-bottom: 24px;
+}
+.feature_card{
+    margin-bottom: 20px;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+.feature_card, .feature-title{
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+#experience_badge{
+    margin-left: -100px;
+    margin-top: -100px;
+    padding: 45px 46px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#experience_year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.featured_img img{
+    width: 100%;
+}
 /* SOME FACTS */
 .facts_container{
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
-    margin-top: 50px;
 }
 
 .fact_card {

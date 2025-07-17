@@ -28,12 +28,16 @@
     .some_facts{
         text-align: center;
     }
+    #experience_badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 
 }
 
 /* Medium devices (tablets, 576px to 992px) */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .teams {
+    .teams, .feature {
         flex-direction: column;
     }
     .our_features {
@@ -43,6 +47,10 @@
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         gap: 50px;
+    }
+    #experience_badge{
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
 
