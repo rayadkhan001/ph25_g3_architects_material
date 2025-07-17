@@ -20,12 +20,15 @@
 .text_gray {
     color: #424242;
 }
-
+.text_primary {
+    color: #FF900E;
+}
 /* DARK 3 */
 .text_light_gray {
     color: #727272;
 }
 .bg_light {
+    padding-bottom: 45px;
     background-color: rgba(255, 144, 14, 0.1);
 }
 .btn_primary {
@@ -36,6 +39,13 @@
     border-radius: 8px;
     color: #fff;
     background-color: #FF900E;
+}
+main > section{
+    margin-top: 130px;
+}
+.section_title{
+    font-size: 2.8em;
+    font-weight: 700;
 }
 /* HEADER & NAVBAR STYLES */
 .navbar{
@@ -74,3 +84,32 @@
 .banner_img {
     width: 100%;
 }
+/* MAIN STARTS */
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* TEAM AND FEATURE RELATED STYLES */
+.teams {
+    align-items: center;
+}
+.team_img_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.our_features {
+    padding-left: 130px;
+    max-width: 530px;
+}
+.feature_desc {
+    font-size: 1em;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+#quick_list {
+    font-weight: 500;
+}
+/* MAIN ENDS*/

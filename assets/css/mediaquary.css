@@ -1,22 +1,30 @@
-/* 'col' Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-    .navbar, .nav-links {
+/* Extra small devices (phones, less than 576px) */
+@media screen and (max-width: 575.98px) {
+    .navbar,
+    .nav-links,
+    .teams {
         flex-direction: column;
+    }
+    .team_img_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .our_features {
+        margin-left: 20px;
     }
 }
 
-/* Small devices (landscape phones, 576px and above) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-
+/* Medium devices (tablets, 576px to 992px) */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .teams {
+        flex-direction: column;
+    }
+    .our_features {
+        margin-left: 50px auto;
+    }
 }
 
-
-/* Medium devices (tablets,768px and above) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-
-}
-
-/* Large devices (desktops, 992px and above) */
+/* Large devices (992px and above) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
 }
@@ -26,33 +34,15 @@
 
 }
 
-/* Extra large devices (1200px and above) */
 @media (min-width: 1400px) {
 
 }
 
-/* Extra large devices (1200px and above) */
-/*@media (min-width: 1400px) and (max-width: 1599.98) {
+/* Optional: Larger screens */
+@media (min-width: 1500px) and (max-width: 1999.98px) {
 
-}*/
+}
 
-/* Extra large devices (1200px and above) */
-/*@media (min-width: 1400px) and (max-width: 1599.98) {
+@media (min-width: 2000px) {
 
-}*/
-
-/* Extra large devices (1200px and above) */
-/*@media (min-width: 1500px) and (max-width: 1999.98) {
-
-}*/
-
-/* Extra extra large devices (large desktops,1400px and above) */
-/*@media (min-width: 2000px) {
-
-}*/
-
-/*@include media-breakpoint-up(sm) { ... }
-@include media-breakpoint-up(md) { ... }
-@include media-breakpoint-up(lg) { ... }
-@include media-breakpoint-up(xl) { ... }
-@include media-breakpoint-up(xxl) { ... }*/
+}
