@@ -47,6 +47,9 @@ main > section{
     font-size: 2.8em;
     font-weight: 700;
 }
+.pb_50{
+    padding-bottom: 50px;
+}
 /* HEADER & NAVBAR STYLES */
 .navbar{
     justify-content: space-between;
@@ -142,5 +145,18 @@ main > section{
 }
 .facts_desc{
     max-width: 540px;
+}
+/* SPONSORS RELATED STYLES */
+.sponsor_info {
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sponsor_companies{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.sponsor_companies img {
+    filter: grayscale(100%);
 }
 /* MAIN ENDS*/
